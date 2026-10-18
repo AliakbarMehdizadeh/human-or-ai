@@ -1,0 +1,23 @@
+name: human_or_ai
+description: "Find the human among the bots. A pass-and-play party game."
+publish_to: 'none'
+
+# Version shown in the Play Store. The build number (+N) is set
+# automatically by the cloud build, so only change the 1.0.0 part.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/questions.json
